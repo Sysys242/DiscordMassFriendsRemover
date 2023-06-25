@@ -8,7 +8,8 @@
   <b>🖤 Past the code in the consol when you are in the Friends request tabs ( if you are on friends tab, it gonna delete it) 🖤</b><br>
 </p>
 
-```var friends = (webpackChunkdiscord_app.push([
+```
+var friends = (webpackChunkdiscord_app.push([
     [''], {},
     e => {
         m = [];
@@ -29,4 +30,5 @@ function removeFriendsAll() {
         setTimeout(removeFriendsAll, 5000);
     }
 }
-removeFriendsAll();```
+removeFriendsAll();
+```
